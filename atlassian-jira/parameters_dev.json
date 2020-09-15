@@ -1,0 +1,172 @@
+[
+  {
+    "ParameterKey": "CatalinaOpts",
+    "ParameterValue": ""
+  }, 
+  {
+    "ParameterKey": "CidrBlock",
+    "ParameterValue": "0.0.0.0/0"
+  },
+  {
+    "ParameterKey": "CloudWatchIntegration",
+    "ParameterValue": "Metrics and Logs"
+  },
+  {
+    "ParameterKey": "ClusterNodeInstanceType",
+    "ParameterValue": "c4.xlarge"
+  },
+    "ParameterKey": "ClusterNodeMax",
+    "ParameterValue": "20"
+  },
+    "ParameterKey": "ClusterNodeMin",
+    "ParameterValue": "2"
+  },
+    "ParameterKey": "ClusterNodeVolumeSize",
+    "ParameterValue": "50"
+  },
+    "ParameterKey": "CustomDnsName",
+    "ParameterValue": "jira.halo-mastek.co.uk"
+  },
+    "ParameterKey": "DBEngine",
+    "ParameterValue": "PostgreSQL"
+  },
+    "ParameterKey": "DBEngineVersion",
+    "ParameterValue": "9"
+  },
+    "ParameterKey": "DBInstanceClass",
+    "ParameterValue": "db.m5.large"
+  },
+    "ParameterKey": "DBIops",
+    "ParameterValue": "1000"
+  },
+    "ParameterKey": "DBMasterUserPassword",
+    "ParameterValue": "Mastek2020!"
+  },
+    "ParameterKey": "DBMaxIdle",
+    "ParameterValue": "20"
+  },
+    "ParameterKey": "DBMaxWaitMillis",
+    "ParameterValue": "1000"
+  },
+    "ParameterKey": "DBMinEvictableIdleTimeMillis",
+    "ParameterValue": "180000"
+  },
+    "ParameterKey": "DBMinIdle",
+    "ParameterValue": "10"
+  },
+    "ParameterKey": "DBMultiAZ",
+    "ParameterValue": "true"
+  },
+    "ParameterKey": "DBPassword",
+    "ParameterValue": "Mastek2020!"
+  },
+    "ParameterKey": "DBPoolMaxSize",
+    "ParameterValue": "20"
+  },
+    "ParameterKey": "DBPoolMinSize",
+    "ParameterValue": "20"
+  },
+    "ParameterKey": "DBRemoveAbandoned",
+    "ParameterValue": "true"
+  },
+    "ParameterKey": "DBRemoveAbandonedTimeout",
+    "ParameterValue": "60"
+  },
+    "ParameterKey": "DBStorage",
+    "ParameterValue": "200"
+  },
+    "ParameterKey": "DBStorageEncrypted",
+    "ParameterValue": "yes"
+  },
+    "ParameterKey": "DBStorageType",
+    "ParameterValue": "General Purpose (SSD)"
+  },
+    "ParameterKey": "DBTestOnBorrow",
+    "ParameterValue": "false"
+  },
+    "ParameterKey": "DBTestWhileIdle",
+    "ParameterValue": "true"
+  },
+    "ParameterKey": "DBTimeBetweenEvictionRunsMillis",
+    "ParameterValue": "60000"
+  },
+    "ParameterKey": "DeploymentAutomationRepository",
+    "ParameterValue": "https://bitbucket.org/atlassian/dc-deployments-automation.git"
+  },
+    "ParameterKey": "DeploymentAutomationBranch",
+    "ParameterValue": "master"
+  },
+    "ParameterKey": "DeploymentAutomationPlaybook",
+    "ParameterValue": "aws_jira_dc_node.yml"
+  },
+    "ParameterKey": "DeploymentAutomationCustomParams",
+    "ParameterValue": ""
+  },
+    "ParameterKey": "DeploymentAutomationKeyName",
+    "ParameterValue": ""
+  },
+    "ParameterKey": "ExportPrefix",
+    "ParameterValue": "HALO-"
+  },
+    "ParameterKey": "HostedZone",
+    "ParameterValue": "halo-mastek.co.uk"
+  },
+    "ParameterKey": "InternetFacingLoadBalancer",
+    "ParameterValue": "yes"
+  },
+    "ParameterKey": "JiraProduct",
+    "ParameterValue": "Core"
+  },
+    "ParameterKey": "JiraVersion",
+    "ParameterValue": "8.5.6"
+  },
+    "ParameterKey": "JvmHeapOverride",
+    "ParameterValue": "1024"
+  },
+    "ParameterKey": "BastionHostRequired",
+    "ParameterValue": "true"
+  },
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "mastek_nhs_bastion"
+  },
+    "ParameterKey": "MailEnabled",
+    "ParameterValue": "true"
+  },
+    "ParameterKey": "SSLCertificateARN",
+    "ParameterValue": "arn:aws:acm:eu-west-2:445121286360:certificate/d9a1cc6b-2b2e-4665-a951-22782135ad71"
+  },
+    "ParameterKey": "TomcatAcceptCount",
+    "ParameterValue": "10"
+  },
+    "ParameterKey": "TomcatConnectionTimeout",
+    "ParameterValue": "20000"
+  },
+    "ParameterKey": "TomcatContextPath",
+    "ParameterValue": ""
+  },
+    "ParameterKey": "TomcatDefaultConnectorPort",
+    "ParameterValue": "8080"
+  },
+    "ParameterKey": "TomcatEnableLookups",
+    "ParameterValue": "false"
+  },
+    "ParameterKey": "TomcatMaxThreads",
+    "ParameterValue": "200"
+  },
+    "ParameterKey": "TomcatMinSpareThreads",
+    "ParameterValue": "10"
+  },
+    "ParameterKey": "TomcatProtocol",
+    "ParameterValue": "HTTP/1.1"
+  },
+    "ParameterKey": "TomcatRedirectPort",
+    "ParameterValue": "8443"
+  },
+    "ParameterKey": "QSS3BucketName",
+    "ParameterValue": "aws-quickstart"
+  },
+    "ParameterKey": "QSS3KeyPrefix",
+    "ParameterValue": "quickstart-atlassian-jira/"
+  }
+]
+
