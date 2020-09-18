@@ -39,7 +39,7 @@
 	"InternetFacingLoadBalancer": "true",
 	"JiraProduct": "Core",
 	"JiraVersion": "8.5.8",
-	"JvmHeapOverride": "1024",
+	"JvmHeapOverride": "2048m",
 	"BastionHostRequired": "false",
 	"KeyPairName": "",
 	"MailEnabled": "true",
