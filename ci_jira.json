@@ -52,7 +52,7 @@
                             "ActionMode": "CREATE_UPDATE",
                             "RoleArn": "arn:aws:iam::445121286360:role/Halo-CloudFormation",
                             "StackName": "Jira-preprod-stack",
-                            "TemplateConfiguration": "SourceArtifact::ci_jira.json",
+                            "TemplateConfiguration": "SourceArtifact::atlassian-jira/parameters_dev.json",
                             "TemplatePath": "SourceArtifact::atlassian-jira/templates/quickstart-jira-dc.template.yaml"
                         },
                         "outputArtifacts": [],
