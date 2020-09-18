@@ -7,6 +7,11 @@
         },
         "stages": [
             {
+		"capabilities": [
+        "CAPABILITY_AUTO_EXPAND",
+        "CAPABILITY_IAM",
+        "CAPABILITY_NAMED_IAM"
+      ],
                 "name": "Source",
                 "actions": [
                     {
