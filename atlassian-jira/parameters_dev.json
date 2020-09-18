@@ -19,13 +19,13 @@
     "ParameterValue": "20"
   },
     "ParameterKey": "ClusterNodeMin",
-    "ParameterValue": "2"
+    "ParameterValue": "1"
   },
     "ParameterKey": "ClusterNodeVolumeSize",
     "ParameterValue": "50"
   },
     "ParameterKey": "CustomDnsName",
-    "ParameterValue": "jira.halo-mastek.co.uk"
+    "ParameterValue": "jira-ci-test.halomastek.co.uk"
   },
     "ParameterKey": "DBEngine",
     "ParameterValue": "PostgreSQL"
@@ -106,10 +106,10 @@
     "ParameterValue": ""
   },
     "ParameterKey": "ExportPrefix",
-    "ParameterValue": "HALO-"
+    "ParameterValue": "HALO-ASI-PROD"
   },
     "ParameterKey": "HostedZone",
-    "ParameterValue": "halo-mastek.co.uk"
+    "ParameterValue": "halomastek.co.uk"
   },
     "ParameterKey": "InternetFacingLoadBalancer",
     "ParameterValue": "yes"
@@ -118,7 +118,7 @@
     "ParameterValue": "Core"
   },
     "ParameterKey": "JiraVersion",
-    "ParameterValue": "8.5.6"
+    "ParameterValue": "8.5.8"
   },
     "ParameterKey": "JvmHeapOverride",
     "ParameterValue": "1024"
@@ -133,7 +133,7 @@
     "ParameterValue": "true"
   },
     "ParameterKey": "SSLCertificateARN",
-    "ParameterValue": "arn:aws:acm:eu-west-2:445121286360:certificate/d9a1cc6b-2b2e-4665-a951-22782135ad71"
+    "ParameterValue": "arn:aws:acm:eu-west-2:445121286360:certificate/544e2fd0-9a56-4c12-bf7b-eb2252cb1998"
   },
     "ParameterKey": "TomcatAcceptCount",
     "ParameterValue": "10"

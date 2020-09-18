@@ -20,10 +20,10 @@
                         "runOrder": 1,
                         "configuration": {
                             "Branch": "master",
-                            "OAuthToken": "8401666becdf43c1a22a256fce034a6b51487384",
-                            "Owner": "sathya61387",
+                            "OAuthToken": "20909df4e209f8ce2fd88d08146949e19b1a9f19",
+                            "Owner": "john61384",
                             "PollForSourceChanges": "false",
-                            "Repo": "halo-mastek-collab-tools"
+                            "Repo": "halo-masteks"
                         },
                         "outputArtifacts": [
                             {
@@ -52,8 +52,8 @@
                             "ActionMode": "CREATE_UPDATE",
                             "RoleArn": "arn:aws:iam::445121286360:role/Halo-CloudFormation",
                             "StackName": "Jira-preprod-stack",
-                            "TemplateConfiguration": "SourceArtifact::Halo-ASI/Jira-Dev-Parameters",
-                            "TemplatePath": "SourceArtifact::Halo-ASI/quickstart-jira-dc.template.yaml"
+                            "TemplateConfiguration": "SourceArtifact::ci_jira.json",
+                            "TemplatePath": "SourceArtifact::atlassian-jira/templates/quickstart-jira-dc.template.yaml"
                         },
                         "outputArtifacts": [],
                         "inputArtifacts": [
@@ -127,8 +127,8 @@
                         "ActionMode": "CREATE_UPDATE",
                         "RoleArn": "arn:aws:iam::445121286360:role/Halo-CloudFormation",
                         "StackName": "Jira-Prod-stack",
-                        "TemplateConfiguration": "SourceArtifact::dev_asi_parameter1.json",
-                        "TemplatePath": "SourceArtifact::quickstart-vpc-for-atlassian-services.yaml"
+                        "TemplateConfiguration": "SourceArtifact::atlassian-jira/parameters_dev.json",
+                        "TemplatePath": "SourceArtifact::atlassian-jira/templates/quickstart-jira-dc.template.yaml"
                     },
                     "outputArtifacts": [],
                     "inputArtifacts": [
