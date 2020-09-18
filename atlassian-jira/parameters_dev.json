@@ -37,7 +37,7 @@
 	"ExportPrefix": "HALO-ASI-PROD",
 	"HostedZone": "",
 	"InternetFacingLoadBalancer": "true",
-	"JiraProduct": "Core",
+	"JiraProduct": "Software",
 	"JiraVersion": "8.5.8",
 	"JvmHeapOverride": "1024",
 	"BastionHostRequired": "false",
