@@ -1,61 +1,59 @@
 {
-
 "Parameters": {
-
-"CatalinaOpts" : "",
-"CidrBlock": "0.0.0.0/0"
-"CloudWatchIntegration": "Metrics and Logs"
-"ClusterNodeInstanceType": "c4.xlarge"
-"ClusterNodeMax": "20"
-"ClusterNodeMin": "1"
-"ClusterNodeVolumeSize": "50"
-"CustomDnsName": "jira-ci-test.halomastek.co.uk"
-"DBEngine": "PostgreSQL"
-"DBEngineVersion": "9"
-"DBInstanceClass": "db.m5.large"
-"DBIops": "1000"
-"DBMasterUserPassword": "Mastek2020!"
-"DBMaxIdle": "20"
-"DBMaxWaitMillis": "1000"
-"DBMinEvictableIdleTimeMillis": "180000"
-"DBMinIdle": "10"
-"DBMultiAZ": "true"
-"DBPassword": "Mastek2020!"
-"DBPoolMaxSize": "20"
-"DBPoolMinSize": "20"
-"DBRemoveAbandoned": "true"
-"DBRemoveAbandonedTimeout": "60"
-"DBStorage": "200"
-"DBStorageEncrypted": "yes"
-"DBStorageType": "General Purpose (SSD)"
-"DBTestOnBorrow": "false"
-"DBTestWhileIdle": "true"
-"DBTimeBetweenEvictionRunsMillis": "60000"
-"DeploymentAutomationRepository": "https://bitbucket.org/atlassian/dc-deployments-automation.git"
-"DeploymentAutomationBranch": "master"
-"DeploymentAutomationPlaybook": "aws_jira_dc_node.yml"
-"DeploymentAutomationCustomParams": ""
-"DeploymentAutomationKeyName": ""
-"ExportPrefix": "HALO-ASI-PROD"
-"HostedZone": "halomastek.co.uk"
-"InternetFacingLoadBalancer": "yes"
-"JiraProduct": "Core"
-"JiraVersion": "8.5.8"
-"JvmHeapOverride": "1024"
-"BastionHostRequired": "true"
-"KeyPairName": "mastek_nhs_bastion"
-"MailEnabled": "true"
-"SSLCertificateARN": "arn:aws:acm:eu-west-2:445121286360:certificate/544e2fd0-9a56-4c12-bf7b-eb2252cb1998"
-"TomcatAcceptCount": "10"
-"TomcatConnectionTimeout": "20000"
-"TomcatContextPath": ""
-"TomcatDefaultConnectorPort": "8080"
-"TomcatEnableLookups": "false"
-"TomcatMaxThreads": "200"
-"TomcatMinSpareThreads": "10"
-"TomcatProtocol": "HTTP/1.1"
-"TomcatRedirectPort": "8443"
-"QSS3BucketName": "aws-quickstart"
-"QSS3KeyPrefix": "quickstart-atlassian-jira/"
-  }
+	"CatalinaOpts" : "",
+	"CidrBlock": "0.0.0.0/0",
+	"CloudWatchIntegration": "Metrics and Logs",
+	"ClusterNodeInstanceType": "c4.xlarge",
+	"ClusterNodeMax": "20",
+	"ClusterNodeMin": "1",
+	"ClusterNodeVolumeSize": "50",
+	"CustomDnsName": "jira-ci-test.halomastek.co.uk",
+	"DBEngine": "PostgreSQL",
+	"DBEngineVersion": "9",
+	"DBInstanceClass": "db.m5.large",
+	"DBIops": "1000",
+	"DBMasterUserPassword": "Mastek2020!",
+	"DBMaxIdle": "20",
+	"DBMaxWaitMillis": "1000",
+	"DBMinEvictableIdleTimeMillis": "180000",
+	"DBMinIdle": "10",
+	"DBMultiAZ": "true",
+	"DBPassword": "Mastek2020!",
+	"DBPoolMaxSize": "20",
+	"DBPoolMinSize": "20",
+	"DBRemoveAbandoned": "true",
+	"DBRemoveAbandonedTimeout": "60",
+	"DBStorage": "200",
+	"DBStorageEncrypted": "yes",
+	"DBStorageType": "General Purpose (SSD)",
+	"DBTestOnBorrow": "false",
+	"DBTestWhileIdle": "true",
+	"DBTimeBetweenEvictionRunsMillis": "60000",
+	"DeploymentAutomationRepository": "https://bitbucket.org/atlassian/dc-deployments-automation.git",
+	"DeploymentAutomationBranch": "master",
+	"DeploymentAutomationPlaybook": "aws_jira_dc_node.yml",
+	"DeploymentAutomationCustomParams": "",
+	"DeploymentAutomationKeyName": "",
+	"ExportPrefix": "HALO-ASI-PROD",
+	"HostedZone": "halomastek.co.uk",
+	"InternetFacingLoadBalancer": "yes",
+	"JiraProduct": "Core",
+	"JiraVersion": "8.5.8",
+	"JvmHeapOverride": "1024",
+	"BastionHostRequired": "true",
+	"KeyPairName": "mastek_nhs_bastion",
+	"MailEnabled": "true",
+	"SSLCertificateARN": "arn:aws:acm:eu-west-2:445121286360:certificate/544e2fd0-9a56-4c12-bf7b-eb2252cb1998",
+	"TomcatAcceptCount": "10",
+	"TomcatConnectionTimeout": "20000",
+	"TomcatContextPath": "",
+	"TomcatDefaultConnectorPort": "8080",
+	"TomcatEnableLookups": "false",
+	"TomcatMaxThreads": "200",
+	"TomcatMinSpareThreads": "10",
+	"TomcatProtocol": "HTTP/1.1",
+	"TomcatRedirectPort": "8443",
+	"QSS3BucketName": "aws-quickstart",
+	"QSS3KeyPrefix": "quickstart-atlassian-jira/",
+	}
 }
