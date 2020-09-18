@@ -40,7 +40,7 @@
 	"JiraProduct": "Core",
 	"JiraVersion": "8.5.8",
 	"JvmHeapOverride": "1024",
-	"BastionHostRequired": "true",
+	"BastionHostRequired": "false",
 	"KeyPairName": "mastek_nhs_bastion",
 	"MailEnabled": "true",
 	"SSLCertificateARN": "arn:aws:acm:eu-west-2:445121286360:certificate/544e2fd0-9a56-4c12-bf7b-eb2252cb1998",
