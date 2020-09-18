@@ -4,7 +4,7 @@
 	"CidrBlock": "0.0.0.0/0",
 	"CloudWatchIntegration": "Metrics and Logs",
 	"ClusterNodeInstanceType": "c4.xlarge",
-	"ClusterNodeMax": "20",
+	"ClusterNodeMax": "30",
 	"ClusterNodeMin": "1",
 	"ClusterNodeVolumeSize": "50",
 	"CustomDnsName": "",
