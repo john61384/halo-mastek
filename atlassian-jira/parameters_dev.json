@@ -24,7 +24,7 @@
 	"DBRemoveAbandoned": "true",
 	"DBRemoveAbandonedTimeout": "60",
 	"DBStorage": "200",
-	"DBStorageEncrypted": "yes",
+	"DBStorageEncrypted": "true",
 	"DBStorageType": "General Purpose (SSD)",
 	"DBTestOnBorrow": "false",
 	"DBTestWhileIdle": "true",
