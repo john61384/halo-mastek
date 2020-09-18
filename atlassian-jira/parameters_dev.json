@@ -54,6 +54,6 @@
 	"TomcatProtocol": "HTTP/1.1",
 	"TomcatRedirectPort": "8443",
 	"QSS3BucketName": "aws-quickstart",
-	"QSS3KeyPrefix": "quickstart-atlassian-jira/",
+	"QSS3KeyPrefix": "quickstart-atlassian-jira/"
 	}
 }
