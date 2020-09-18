@@ -36,7 +36,7 @@
 	"DeploymentAutomationKeyName": "",
 	"ExportPrefix": "HALO-ASI-PROD",
 	"HostedZone": "halomastek.co.uk",
-	"InternetFacingLoadBalancer": "yes",
+	"InternetFacingLoadBalancer": "true",
 	"JiraProduct": "Core",
 	"JiraVersion": "8.5.8",
 	"JvmHeapOverride": "1024",
